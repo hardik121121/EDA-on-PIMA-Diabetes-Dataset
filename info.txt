@@ -1,0 +1,36 @@
+🩺 **Diabetes Prediction App** 📊
+
+This app helps visualize and predict **diabetes** using the **PIMA Indian Diabetes Dataset**. 🌱
+
+🔍 **Dataset Overview**:
+The dataset contains information like:
+- **Pregnancies**: Number of times the patient has been pregnant.
+- **Glucose**: Plasma glucose concentration a 2 hours in an oral glucose tolerance test.
+- **BloodPressure**: Diastolic blood pressure (mm Hg).
+- **SkinThickness**: Triceps skinfold thickness (mm).
+- **Insulin**: 2-Hour serum insulin (mu U/ml).
+- **BMI**: Body mass index (weight in kg / height in m^2).
+- **Age**: Age of the patient.
+- **DiabetesPedigreeFunction**: A function which scores the likelihood of diabetes based on family history.
+
+🧠 **How It Works**:
+The app uses a **k-Nearest Neighbors (kNN)** model to classify whether a person has diabetes or not based on these features.
+
+**Visualizations**:
+1. 📊 **Countplot** of the diabetes outcomes (0 = No, 1 = Yes).
+2. 📦 **Boxplots** to show the spread of data and detect outliers.
+3. 👯‍♂️ **Pairplot** to show relationships between different features.
+4. 📈 **Histograms** with KDE to show the distribution of each feature.
+5. 🧠 **Correlation Heatmap** to understand the correlation between features.
+
+⚙️ **Model**:
+- **kNN** algorithm is used to classify data based on the distance between feature points.
+- You can select the **value of k** (1 to 15) to see how the model's accuracy changes.
+
+📉 **Performance**:
+- **Confusion Matrix** and **Classification Report** show detailed insights into the model's performance.
+
+🎯 **Conclusion**:
+- Use this app to visualize data, experiment with the model's k-value, and get an understanding of how well the kNN algorithm predicts diabetes.
+
+👨‍🔬 **Developed with ❤️ for healthcare and data science enthusiasts!**
